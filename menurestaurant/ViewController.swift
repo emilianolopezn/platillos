@@ -32,6 +32,7 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.title = "Menú"
         // Do any additional setup after loading the view, typically from a nib.
     }
 

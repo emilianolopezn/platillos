@@ -19,6 +19,9 @@
 		3DA0EA5F2164457B0075DDF3 /* Datos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DA0EA5E2164457B0075DDF3 /* Datos.swift */; };
 		3DA0EA6121644F680075DDF3 /* CeldaPlatillo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DA0EA6021644F680075DDF3 /* CeldaPlatillo.swift */; };
 		3DA0EA63216454B90075DDF3 /* DetallePlatilloController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DA0EA62216454B90075DDF3 /* DetallePlatilloController.swift */; };
+		3DAF7C5A2165176A00E5475B /* CeldaComentario.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DAF7C592165176A00E5475B /* CeldaComentario.swift */; };
+		3DAF7C5C2165194700E5475B /* ListaComentariosController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DAF7C5B2165194700E5475B /* ListaComentariosController.swift */; };
+		3DAF7C5E2165234400E5475B /* AgregarComentarioController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DAF7C5D2165234400E5475B /* AgregarComentarioController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +60,9 @@
 		3DA0EA5E2164457B0075DDF3 /* Datos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Datos.swift; sourceTree = "<group>"; };
 		3DA0EA6021644F680075DDF3 /* CeldaPlatillo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CeldaPlatillo.swift; sourceTree = "<group>"; };
 		3DA0EA62216454B90075DDF3 /* DetallePlatilloController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetallePlatilloController.swift; sourceTree = "<group>"; };
+		3DAF7C592165176A00E5475B /* CeldaComentario.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CeldaComentario.swift; sourceTree = "<group>"; };
+		3DAF7C5B2165194700E5475B /* ListaComentariosController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListaComentariosController.swift; sourceTree = "<group>"; };
+		3DAF7C5D2165234400E5475B /* AgregarComentarioController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgregarComentarioController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -159,6 +165,9 @@
 				3DA0EA29216441BD0075DDF3 /* ViewController.swift */,
 				3DA0EA6021644F680075DDF3 /* CeldaPlatillo.swift */,
 				3DA0EA62216454B90075DDF3 /* DetallePlatilloController.swift */,
+				3DAF7C592165176A00E5475B /* CeldaComentario.swift */,
+				3DAF7C5B2165194700E5475B /* ListaComentariosController.swift */,
+				3DAF7C5D2165234400E5475B /* AgregarComentarioController.swift */,
 			);
 			name = ViewControllers;
 			sourceTree = "<group>";
@@ -311,11 +320,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3DAF7C5E2165234400E5475B /* AgregarComentarioController.swift in Sources */,
 				3DA0EA6121644F680075DDF3 /* CeldaPlatillo.swift in Sources */,
 				3DA0EA5F2164457B0075DDF3 /* Datos.swift in Sources */,
+				3DAF7C5A2165176A00E5475B /* CeldaComentario.swift in Sources */,
 				3DA0EA5D216442830075DDF3 /* Comentario.swift in Sources */,
 				3DA0EA2A216441BD0075DDF3 /* ViewController.swift in Sources */,
 				3DA0EA63216454B90075DDF3 /* DetallePlatilloController.swift in Sources */,
+				3DAF7C5C2165194700E5475B /* ListaComentariosController.swift in Sources */,
 				3DA0EA28216441BD0075DDF3 /* AppDelegate.swift in Sources */,
 				3DA0EA5B216442730075DDF3 /* Platillo.swift in Sources */,
 			);
